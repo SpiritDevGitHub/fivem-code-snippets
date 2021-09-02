@@ -1,0 +1,110 @@
+{
+    "Basic fxmanifest Template": {
+        "prefix": "-basicfx",
+        "description": "Create a basic updated fxmanifest.",
+        "body": [
+            "fx_version 'cerulean'",
+            "game 'gta5'",
+            "",
+            "author ''",
+            "description ''",
+            "version '1.0.0'",
+            "",
+            "client_script 'client/*.lua'",
+            ""
+        ]
+    },
+    "fxmanifest Template": {
+        "prefix": "-fx",
+        "description": "Create a updated fxmanifest.",
+        "body": [
+            "fx_version 'cerulean'",
+            "game 'gta5'",
+            "",
+            "author ''",
+            "description ''",
+            "version '1.0.0'",
+            "",
+            "client_script 'client/*.lua'",
+            "server_script 'server/*.lua'",
+            "shared_script 'shared/*.lua'",
+            ""
+        ]
+    },
+    "NUI fxmanifest Template": {
+        "prefix": "-fx",
+        "description": "Create a NUI updated fxmanifest.",
+        "body": [
+            "fx_version 'cerulean'",
+            "game 'gta5'",
+            "",
+            "author ''",
+            "description ''",
+            "version '1.0.0'",
+            "",
+            "client_script 'client/*.lua'",
+            "",
+            "ui_page 'html/index.html'",
+            "file 'html/index.html'",
+            ""
+        ]
+    },
+    "Map fxmanifest Template": {
+        "prefix": "-fxm",
+        "description": "Create a Map updated fxmanifest.",
+        "body": [
+            "fx_version 'cerulean'",
+            "game 'gta5'",
+            "",
+            "author ''",
+            "description ''",
+            "version '1.0.0'",
+            "",
+            "this_is_a_map 'yes'",
+            ""
+        ]
+    },
+    "LoadingScreen fxmanifest Template": {
+        "prefix": "-fxls",
+        "description": "Create a Map updated fxmanifest.",
+        "body": [
+            "fx_version 'cerulean'",
+            "game 'gta5'",
+            "",
+            "author ''",
+            "description ''",
+            "version '1.0.0'",
+            "",
+            "loadscreen 'html/index.html'",
+            "file 'html/index.html'",
+            ""
+        ]
+    },
+    "Vehicle fxmanifest Template": {
+        "prefix": "-fxv",
+        "description": "Create a Vehicle updated fxmanifest.",
+        "body": [
+            "fx_version 'cerulean'",
+            "game 'gta5'",
+            "",
+            "author ''",
+            "description ''",
+            "version '1.0.0'",
+            "",
+            "files {",
+            "    'vehicles.meta',",
+            "    'carvariations.meta',",
+            "    'carcols.meta',",
+            "    'handling.meta',",
+            "    'vehiclelayouts.meta',",
+            "}",
+            "",
+            "data_file 'HANDLING_FILE' 'handling.meta'",
+            "data_file 'VEHICLE_METADATA_FILE' 'vehicles.meta'",
+            "data_file 'CARCOLS_FILE' 'carcols.meta'",
+            "data_file 'VEHICLE_VARIATION_FILE' 'carvariations.meta'",
+            "data_file 'VEHICLE_LAYOUTS_FILE' 'vehiclelayouts.meta'",
+            ""
+        ]
+    }
+}

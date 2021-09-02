@@ -1,0 +1,34 @@
+{
+    "name": "fivem-fx-snippets",
+    "displayName": "FiveM Code Snippets",
+    "description": "Code snippets for mainly fxmanifest files",
+    "version": "1.0.0",
+    "publisher": "SpiritDev",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SpiritDevGitHub/fivem-code-snippets"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^0.10.0"
+    },
+    "keywords": [
+        "fivem",
+        "FiveM",
+        "Fivem",
+        "fivem snippets",
+        "FiveM snippets",
+        "Fivem snippets"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "lua",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
